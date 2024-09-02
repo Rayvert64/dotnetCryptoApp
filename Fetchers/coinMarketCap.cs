@@ -3,7 +3,7 @@ namespace Fetchers.CryptoApi
 {
     public class CoinMarketCapApi
     {
-        public readonly string apiKey = ApiKeys.ApiKeysFetcher.CoinMarketCapKey();
+        public static readonly string apiKey = ApiKeys.ApiKeysFetcher.CoinMarketCapKey();
 
     }
 }

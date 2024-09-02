@@ -13,10 +13,10 @@ namespace Fetchers.ApiKeys {
                 // You can save a public API key if you are running locally by looking at
                 if (!isAzureEnv) {
                     Console.WriteLine("This is not Azure");
-                    return "THIS IS A KEY";
+                    return "THIS IS A KEY SAVED IN local file .apiKeyCoinMarketCap";
                 }
 
-                return "WRONG";
+                return "THIS IS A KEY SAVED IN THE AZURE API KEY FRAMEWORK";
             }
 }
 }

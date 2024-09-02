@@ -1,9 +1,9 @@
-using apiKey.apiKeysFetcher;
 
-class coinMarketCapApi {
-    public:
+namespace Fetchers.CryptoApi
+{
+    public class CoinMarketCapApi
+    {
+        public readonly string apiKey = ApiKeys.ApiKeysFetcher.CoinMarketCapKey();
 
-    private:
-        const string apiKey = apiKeysFetcher.coinMarketCapKey();
-
+    }
 }
